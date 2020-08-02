@@ -1,4 +1,4 @@
-# Tyba QA Engineer test
+# Tyba QA Engineer Test
 
 Las pruebas fueron automatizadas usando el poderoso framework serenity para la generación
 de reportes. Con el objetivo de ser mas organizado, los scripts de automatización son
@@ -9,11 +9,15 @@ Tambien usé Jbejave para escribir las historias usando Gherkin como lenguaje.
 
 * IntelliJ IDEA
     * Con Plugin : Jbejave Support v1.53
-* Java v11.07
+* JDK v11.07
 * Maven v3.6.3
 * Jbejave
 * Chromedriver v84.0.4147.30
 * JUnit
+* Linux
+
+### Lenguaje ###
+* Java
 
 ### Framework ###
 
@@ -26,6 +30,9 @@ Tambien usé Jbejave para escribir las historias usando Gherkin como lenguaje.
 ### Correr las pruebas ###
 
 * Correr el comando: _**mvn clean verify**_
+
+Nota: Si no se van a correr las pruebas en el OS Linux, 
+* Descargar el correspondiente chromedriver para su sistema operativo (windows o mac) y reemplazarlo. Ruta de descarga: https://chromedriver.storage.googleapis.com/index.html?path=84.0.4147.30/
 
 ### Reportes ###
 
