@@ -36,6 +36,6 @@ Nota: Si no se van a correr las pruebas en el OS Linux,
 
 ### Reportes ###
 
-* Despues de correr las pruebas, consultar el reporte accediento la ruta:
+* Despues de correr las pruebas, consultar el reporte generado accediento a la ruta:
     * Ruta: _**../BDDCalculadoraCredito/target/site/serenity/index.html**_
     
